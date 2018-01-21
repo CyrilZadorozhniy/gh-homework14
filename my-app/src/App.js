@@ -2,6 +2,7 @@ import React from 'react';
 import HeaderSite from './Header';
 import FooterSite from './Footer';
 import ContentSite from './Content';
+import Map from './Map.jsx';
 
 class App extends React.Component {
     render() {
@@ -10,6 +11,7 @@ class App extends React.Component {
                 <HeaderSite/>
                 <ContentSite/>
                 <FooterSite/>
+                <Map/>
             </div>
         )
     }
